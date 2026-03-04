@@ -44,31 +44,6 @@ SQL
 
 Eclipse IDE
 
-Apache Tomcat (if web-based)
-
-🗂️ Project Structure
-StudentManagement/
-│
-├── src/
-│   ├── model/
-│   │   └── Student.java
-│   ├── dao/
-│   │   └── StudentDAO.java
-│   ├── util/
-│   │   └── DBConnection.java
-│   └── main/
-│       └── MainApp.java
-│
-└── database/
-    └── student.sql
-🗄️ Database Schema
-CREATE TABLE students (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100) NOT NULL,
-    email VARCHAR(100) UNIQUE NOT NULL,
-    course VARCHAR(100),
-    marks DOUBLE
-);
 🔗 JDBC Workflow Used
 
 Load Driver
